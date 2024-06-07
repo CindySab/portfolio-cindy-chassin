@@ -17,11 +17,11 @@ export default function Home() {
     <main className="flex items-center text-dark w-full min-h-screen">
     <Layout className='pt-0'>
         <div className='flex items-center justify-between w-full'>
-          <div className='w-1/3'>
+          <div className='w-1/2'>
             <Image src={profilPicture} alt="" className='w-full h-auto' />
           </div>
-          <div className='w-2/3 flex flex-col items-center self-center ml-20'>
-          <AnimatedText text="Transformer votre vision en réalité avec le code et le design." className='!text-6xl !text-left' />
+          <div className='w-1/2 flex flex-col items-center self-center ml-20'>
+          <AnimatedText text="Transformer votre vision en réalité." className='!text-6xl !text-left' />
           <p className="my-4 text-base font-medium">En tant que développeur, je me consacre à transformer des idées en applications Web innovantes. 
             Explorez mes derniers projets, mettant en valeur mon expertise en React.js et en développement Web.</p>
             <div className="flex items-center self-start mt-2">
