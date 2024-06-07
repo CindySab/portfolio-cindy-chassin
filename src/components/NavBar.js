@@ -29,15 +29,15 @@ const NavBar = () => {
             </nav>
             <nav className='flex items-center justify-center flex-wrap'>
                 <motion.a href="https://www.linkedin.com/feed/" target={"_blank"}
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
-                className='w-6 mr-3'
+                whileHover={{y:-8}}
+                whileTap={{scale:0.8}}
+                className='w-8 mr-3'
                 >
                     <LinkedInIcon />
                     </motion.a>
                     <motion.a href="https://www.linkedin.com/feed/" target={"_blank"}
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
+                whileHover={{y:-8}}
+                whileTap={{scale:0.8}}
                 className='w-6 ml-3'
                 >
                     <GithubIcon />
