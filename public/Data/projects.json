@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Print-it",
+        "summary": "Votre tâche consistera à mettre à jour le code HTML existant et à ajouter un carrousel en JavaScript. Cela vous permettra de comprendre comment JavaScript interagit avec le HTML et le CSS pour créer des éléments web interactifs.",
+        "img": "/image/printIt.png",
+        "github": "/",
+        "type": "Premiers pas sur le langage Javascript",
+        "link": "https://cindysab.github.io/print-it/",
+        "width": 800,   
+        "height": 600   
+    },
+    {
+        "title": "Print-it",
+        "summary": "Votre tâche consistera à mettre à jour le code HTML existant et à ajouter un carrousel en JavaScript. Cela vous permettra de comprendre comment JavaScript interagit avec le HTML et le CSS pour créer des éléments web interactifs.",
+        "img": "/image/printIt.png",
+        "github": "/",
+        "type": "Premiers pas sur le langage Javascript",
+        "link": "https://cindysab.github.io/print-it/",
+        "width": 800,   
+        "height": 600 
+    }
+]

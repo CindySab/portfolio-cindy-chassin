@@ -19,7 +19,7 @@ const Skill = ({ imgSrc, x, y, alt }) => { // Déstructuration des propriétés
 const SkillsComponent = () => {
     return (
         <>
-            <h2 className='font-bold text-8xl mt-20 w-full text-center'>Skills</h2>
+            <h2 className='font-bold text-6xl mt-20 w-full text-center'>Skills</h2>
             <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
                 <motion.div className='flex items-center justify-center '
                     whileHover={{ scale: 1.1 }}
