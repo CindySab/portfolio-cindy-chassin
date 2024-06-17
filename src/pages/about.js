@@ -19,7 +19,7 @@ const About = () => {
                         <div className="mx-auto max-w-full lg:text-center">
                         <AnimatedText text="A propos de moi ..." className='!text-6xl !text-center' />
                         </div>
-                        <div className="mx-auto mt-16 max-w-full sm:mt-20 lg:mt-24">
+                        <div className="mx-auto mt-14 max-w-full sm:mt-14 lg:mt-14">
                             <dl className="grid grid-cols-1 gap-x-6 gap-y-8 lg:grid-cols-2 lg:gap-x-12 lg:gap-y-12">
                                 {data.content.map((item, index) => (
                                     <ContentItem

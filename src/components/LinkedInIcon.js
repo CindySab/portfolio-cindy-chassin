@@ -1,5 +1,24 @@
 import * as React from "react"
-const LinkedInIcon = ({className, ...rest}) => (
+import dynamic from 'next/dynamic';
+
+const MotionLink = dynamic(() => import('framer-motion').then(mod => mod.motion.a), { ssr: false });
+
+const LinkedInIcon = ({className, ...rest}) => {
+
+    const [isclient, setisclient] = React.useState(false);
+    React.useEffect(() => {
+        setisclient(true)
+    }, [])
+    if (!isclient) return null;
+    return (
+    <MotionLink
+                    key="123-linkedin"
+                    href="https://www.linkedin.com/feed/"
+                    target="_blank"
+                    whileHover={{ y: -8 }}
+                    whileTap={{ scale: 0.8 }}
+                    className="w-8 mr-3"
+                >
     <svg
     xmlns="http://www.w3.org/2000/svg"
     width="2em"
@@ -18,5 +37,7 @@ const LinkedInIcon = ({className, ...rest}) => (
         />
     </g>
     </svg>
-)
+    </MotionLink>
+    )
+}
 export default LinkedInIcon

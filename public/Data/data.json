@@ -2,19 +2,19 @@
     "content": [
         {
             "title": "Mon histoire",
-            "description": "Potius comparandis ferendum hoc illud etiam etiam odisse fuit tempus Quin amicitiam comparandis cuiuscumque quem fuit amare eum Scipio amare minus quidem Quin putabat diligendo diligendo aliquando valet fuit comparandis eum ferendum amicitiam hoc etiam amare minus diligentiam possemus potius cogitandum putabat etiam amare diligentiam illud putabat odisse quando etiam."
+            "description": "Après avoir obtenu mon baccalauréat en sciences médico-sociales (SMS), j'ai tenté les concours pour devenir infirmière. Bien que j'aie réussi l'écrit, je n'ai pas passé l'oral. La créativité a toujours fait partie de mon âme. Autodidacte, j'ai appris à coudre et à gérer les aspects administratifs de ma propre entreprise de confection de vêtements pour enfants, y compris la comptabilité et la gestion de mon site internet. Cette expérience m'a poussé à approfondir mes compétences en entreprise en suivant un BTS d'assistante de manager en alternance au sein du service RH de la MAIF. Bien que cette expérience m'ait beaucoup apporté, le côté créatif me manquait."
         },
         {
             "title": "Et après ?",
-            "description": "Potius comparandis ferendum hoc illud etiam etiam odisse fuit tempus Quin amicitiam comparandis cuiuscumque quem fuit amare eum Scipio amare minus quidem Quin putabat diligendo diligendo aliquando valet fuit comparandis eum ferendum amicitiam hoc etiam amare minus diligentiam possemus potius cogitandum putabat etiam amare diligentiam illud putabat odisse quando etiam."
+            "description": "Pendant ma formation, j'ai réalisé plusieurs projets variés qui m'ont permis de développer une expertise solide en développement web. J'ai commencé par des projets simples pour me familiariser avec HTML et CSS, puis j'ai intégré des pages web, amélioré des interfaces mobiles avec CSS et Sass, et créé des carrousels avec JavaScript. J'ai aussi travaillé sur des pages dynamiques communicant avec des API. L'un de mes projets majeurs a été le développement de l'application Kasa avec React et React Router, où j'ai appris à structurer des applications complexes. En travaillant sur l'application bancaire Argent Bank avec React et Redux, j'ai manipulé des API REST et modélisé des API. Ces projets m'ont permis de maîtriser HTML, CSS, JavaScript, React, et d'autres outils, préparant ainsi mon avenir dans l'intégration web."
         },
         {
-            "title": "En ce moment",
-            "description": "Potius comparandis ferendum hoc illud etiam etiam odisse fuit tempus Quin amicitiam comparandis cuiuscumque quem fuit amare eum Scipio amare minus quidem Quin putabat diligendo diligendo aliquando valet fuit comparandis eum ferendum amicitiam hoc etiam amare minus diligentiam possemus potius cogitandum putabat etiam amare diligentiam illud putabat odisse quando etiam."
+            "title": "Reconversion en Intégration Web",
+            "description": "Après quelques années, j'ai suivi une formation d'illustratrice par plaisir, tout en continuant mon travail d'assistante de manager. Cependant, mon intérêt pour le web et la technologie m'a finalement conduit à entreprendre une formation d'intégrateur web. Depuis toujours, j'aimais bidouiller sur l'ordinateur, et je voulais acquérir de véritables compétences pour allier la création de sites internet à ma passion pour l'illustration et le design. Cette formation m'a permis d'apprendre des langages et des outils comme HTML, CSS, Sass, React, Next.js, Tailwind, Figma, et GitHub."
         },
         {
-            "title": "Et dans 10 ans ?",
-            "description": "Potius comparandis ferendum hoc illud etiam etiam odisse fuit tempus Quin amicitiam comparandis cuiuscumque quem fuit amare eum Scipio amare minus quidem Quin putabat diligendo diligendo aliquando valet fuit comparandis eum ferendum amicitiam hoc etiam amare minus diligentiam possemus potius cogitandum putabat etiam amare diligentiam illud putabat odisse quando etiam."
+            "title": "Mes aspirations futures",
+            "description": "À l'avenir, je souhaite continuer à me perfectionner en front-end, en explorant de nouvelles technologies et en acquérant de nouvelles compétences. Je vise également à me former au développement d'applications mobiles dans quelques années. Mon objectif est d'allier ma passion pour l'illustration et le design avec mes compétences techniques pour créer des expériences utilisateur riches et engageantes. Je suis enthousiaste à l'idée de travailler sur des projets innovants et de continuer à évoluer dans le domaine du web."
         }
     ]
 }
