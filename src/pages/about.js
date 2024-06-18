@@ -10,8 +10,8 @@ const About = () => {
     return (
         <>
             <Head>
-                <title>Cindy Chassin | About page</title>
-                <meta name="description" content="any description"></meta>
+                <title>Cindy Chassin | À Propos</title>
+                <meta name="description" content="Découvrez mon parcours depuis mes débuts dans les sciences médico-sociales jusqu'à ma reconversion en intégration web, mes projets et mes aspirations futures."></meta>
             </Head>
             <main className=" text-dark w-full min-h-screen relative overflow-hidden">
                 <div className="py-20 w-full z-10 relative">
