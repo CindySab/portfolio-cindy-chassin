@@ -4,7 +4,7 @@ import GithubIcon from './GithubIcon';
 
 const ProjectItem = ({ title, type, summary, img, link, github, width, height}) => {
     return (
-        <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light p-12'>
+        <article className='h-[550px] w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light p-12'>
             <Link href={link} target="_blank" className='w-1/2 cursor-pointer overflow-hidden rounded-lg'>
                 <Image src={img} alt={title} width={width} height={height} className='w-full h-auto'/>
             </Link>

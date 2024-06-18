@@ -30,7 +30,7 @@ const Projects = () => {
     ),
         nextArrow: (
             <div>
-                <div className="next-slick-arrow absolute right-0 top-1/2 transform -translate-y-1/2 z-10">
+                <div className="next-slick-arrow absolute -right-2 top-1/2 transform -translate-y-1/2 z-10">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         stroke="black"
@@ -46,7 +46,7 @@ const Projects = () => {
 
         prevArrow: (
             <div>
-                <div className="prev-slick-arrow absolute left-0 top-1/2 transform -translate-y-1/2 z-10 rotate-180">
+                <div className="prev-slick-arrow absolute -left-4 top-1/2 transform -translate-y-1/2 z-10 rotate-180">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         stroke="black"
@@ -74,13 +74,13 @@ const Projects = () => {
                 <Layout className="pt-16">
                     <AnimatedText
                         text="Mes projets"
-                        className="!text-6xl !text-center mb-16"
+                        className="!text-6xl !text-center mb-10"
                     />
 
                     <Slider {...settings}>
                         {projectsData.map((project, index) => (
                             <div key={index} className="w-full">
-                                <div className="w-full flex items-center justify-between p-12 mb-8">
+                                <div className="w-full flex items-center justify-between p-12 mb-0">
                                     <ProjectItem
                                         title={project.title}
                                         summary={project.summary}
