@@ -2,7 +2,7 @@
     {
         "title": "Booki",
         "summary": "Dans ce projet, j'ai créé la page d'accueil responsive d'une agence de voyage en utilisant HTML et CSS. En suivant les maquettes Figma pour mobile, tablette et desktop, j'ai développé des composants d'interface pour obtenir un rendu fidèle. Ce travail m'a permis d'acquérir des compétences en design responsive et en structuration de code pour différents appareils.",
-        "img": "/image/booki.png",
+        "img": "/image/booki.webp",
         "github": "https://github.com/CindySab/Booki",
         "type": "Premiers pas avec HTML & CSS",
         "link": "https://github.com/CindySab/Booki",
@@ -12,7 +12,7 @@
     {
         "title": "Oh my food",
         "summary": "Dans ce projet, j'ai travaillé sur l'interface mobile-first d'un site web en utilisant Sass et en implémentant des animations CSS. En suivant les maquettes et le prototype Figma, j'ai intégré une interface responsive pour mobile et desktop. Ce projet m'a permis de comprendre l'importance de concevoir des sites adaptatifs, d'enrichir l'expérience utilisateur avec des animations CSS, et d'utiliser Sass pour des styles plus organisés.",
-        "img": "/image/ohmyfood.png",
+        "img": "/image/ohmyfood.webp",
         "github": "https://github.com/CindySab/ohmyfood",
         "type": "Premiers pas avec les animations CSS",
         "link": "https://cindysab.github.io/ohmyfood/",
@@ -22,7 +22,7 @@
     {
         "title": "Print-it",
         "summary": "Ce projet m'a initié au langage JavaScript en dynamisant le site statique d'une imprimerie avec un carrousel interactif. J'ai commencé par explorer les fondamentaux de JavaScript pour rendre le site plus dynamique et engageant. Ma tâche principale était de mettre à jour le code HTML existant et d'ajouter un carrousel en JavaScript, ce qui m'a aidé à comprendre l'interaction entre JavaScript, HTML et CSS.",
-        "img": "/image/printIt.png",
+        "img": "/image/printIt.webp",
         "github": "https://github.com/CindySab/print-it",
         "type": "Premiers pas sur le langage Javascript",
         "link": "https://cindysab.github.io/print-it/",
@@ -42,7 +42,7 @@
     {
         "title": "Kasa",
         "summary": "Dans ce projet, j'ai implémenté le front-end d'une application en utilisant React et React Router. J'ai travaillé sur la logique de présentation des données et les composants React, et j'ai configuré la navigation entre les pages avec React Router. Le projet se basait sur des maquettes fournies et des données simulées d'un fichier JSON. J'ai démarré avec Create React App pour simplifier la configuration initiale et utilisé Node.js pour exécuter du code JavaScript en dehors du navigateur.",
-        "img": "/image/kasa1.png",
+        "img": "/image/kasa1.webp",
         "github": "https://github.com/CindySab/kasa",
         "type": "Premiers pas sur React",
         "link": "https://github.com/CindySab/kasa",
@@ -52,7 +52,7 @@
     {
         "title": "Nina Carducci",
         "summary": "Dans ce projet freelance, j'ai optimisé le référencement d'un site en améliorant sa performance et son accessibilité. Après avoir identifié les problèmes de chargement et de référencement, j'ai proposé et appliqué des recommandations pour optimiser la vitesse de chargement, la structure du code et le référencement. J'ai utilisé des outils comme Lighthouse et Wave pour mes évaluations et j'ai créé un rapport illustrant les résultats avant et après les modifications.",
-        "img": "/image/nina.png",
+        "img": "/image/nina.webp",
         "github": "https://github.com/CindySab/ninacarducci",
         "type": "Optimisation d'un site",
         "link": "https://cindysab.github.io/ninacarducci/",
@@ -62,7 +62,7 @@
     {
         "title": "724Events",
         "summary": "Dans ce projet, j'ai débuggé et finalisé le développement d'un site web one-page. En utilisant les Chrome DevTools et React Developer Tools, j'ai identifié et résolu les problèmes de code. J'ai également complété le cahier de recette pour assurer le bon fonctionnement du site, utilisant Yarn et Node.js pour la gestion des dépendances et l'exécution des tests. J'ai versionné mon travail avec GitHub et utilisé Visual Studio Code comme éditeur de code principal.",
-        "img": "/image/events.png",
+        "img": "/image/events.webp",
         "github": "https://github.com/CindySab/724Events",
         "type": "Débuggage d'un site one-page",
         "link": "https://github.com/CindySab/724Events",
@@ -72,7 +72,7 @@
     {
         "title": "Argent Bank",
         "summary": "Dans ce projet, j'ai développé le front-end d'une application bancaire avec React et Redux, intégrant des appels API REST pour assurer la communication avec le back-end. J'ai conçu un tableau de bord responsive en utilisant React, géré l'état global avec Redux, et utilisé Swagger pour définir les points d'accès de l'API. J'ai également utilisé Node.js pour exécuter le code côté serveur, acquérant ainsi une expérience full-stack.",
-        "img": "/image/argentbank.png",
+        "img": "/image/argentbank.webp",
         "github": "https://github.com/CindySab/ArgentBank",
         "type": "React et Redux",
         "link": "https://github.com/CindySab/ArgentBank",
