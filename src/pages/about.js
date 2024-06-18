@@ -14,7 +14,7 @@ const About = () => {
                 <meta name="description" content="Découvrez mon parcours depuis mes débuts dans les sciences médico-sociales jusqu'à ma reconversion en intégration web, mes projets et mes aspirations futures."></meta>
             </Head>
             <main className=" text-dark w-full min-h-screen relative overflow-hidden">
-                <div className="py-20 w-full z-10 relative">
+                <div className="py-10 w-full z-10 relative">
                     <div className="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
                         <div className="mx-auto max-w-full lg:text-center">
                         <AnimatedText text="A propos de moi ..." className='!text-6xl !text-center' />

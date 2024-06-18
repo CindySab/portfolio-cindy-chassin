@@ -47,7 +47,7 @@ const NavBar = () => {
                 
                 <motion.a
                     key="124"
-                    href="https://www.linkedin.com/feed/"
+                    href="https://github.com/CindySab?tab=repositories"
                     target={"_blank"}
                     whileHover={{ y: -8 }}
                     whileTap={{ scale: 0.8 }}

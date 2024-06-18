@@ -13,7 +13,7 @@ const LinkedInIcon = ({className, ...rest}) => {
     return (
     <MotionLink
                     key="123-linkedin"
-                    href="https://www.linkedin.com/feed/"
+                    href="http://www.linkedin.com/in/cindy-chassin-655aa62aa"
                     target="_blank"
                     whileHover={{ y: -8 }}
                     whileTap={{ scale: 0.8 }}
