@@ -25,7 +25,7 @@ export default function Home() {
           <p className="my-4 text-base font-medium">En tant que développeur, je me consacre à transformer des idées en applications Web innovantes. 
             Explorez mes derniers projets, mettant en valeur mon expertise en React.js et en développement Web.</p>
             <div className="flex items-center self-start mt-2">
-              <Link href="" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark" download={true}
+              <Link href="/Cindy.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark" download={true}
               >Curriculum Viate &thinsp; <LinkArrow className={"w-6 ml-1"} /> 
               </Link>
               <Link href="mailto:cindychassin.pro@gmail.com" target={"_blank"}

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
-import Logo from "./Logo";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import LinkedInIcon from "./LinkedInIcon";
@@ -57,8 +56,7 @@ const NavBar = () => {
                     <GithubIcon />
                 </motion.a>
             </nav>
-            <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
-                <Logo />
+            <div className="absolute left-[50%] -top-6 translate-x-[-50%] ">
             </div>
         </header>
     );
