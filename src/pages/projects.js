@@ -70,16 +70,16 @@ const Projects = () => {
                 />
             </Head>
             <main className="w-full mb-16 flex flex-col items-center justify-center">
-                <Layout className="pt-10 md:pt-6">
+                <Layout className="pt-10 lg:pt-6">
                     <AnimatedText
                         text="Mes projets"
-                        className="!text-6xl !text-center xs:!text-5xl mb-10 md:mb-2"
+                        className="!text-6xl !text-center xs:!text-5xl mb-4 xl:mb-2"
                     />
 
                     <Slider {...settings}>
                         {projectsData.map((project, index) => (
                             <div key={index} className="w-full">
-                                <div className="w-full flex items-center justify-between p-12 mb-0 md:pr-0 md:pl-0">
+                                <div className="w-full flex items-center justify-between p-12 mb-0 md:pr-0 md:pl-0 pt-4">
                                     <ProjectItem
                                         title={project.title}
                                         summary={project.summary}
