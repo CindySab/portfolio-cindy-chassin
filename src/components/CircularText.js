@@ -1,7 +1,7 @@
 import * as React from "react"
 const CircularText = ({className, ...rest}) => (
     <svg className={className} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" viewBox="0 0 1024 1024" enableBackground="new 0 0 1024 1024" xmlSpace="preserve">
+	width="100%" viewBox="0 0 1024 1024" enableBackground="new 0 0 1024 1024" xmlSpace="preserve">
 <path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M464.318176,796.379089 
