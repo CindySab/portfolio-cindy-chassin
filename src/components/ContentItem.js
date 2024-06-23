@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const ContentItem = ({ title, description }) => (
-    <div className="relative pl-12">
+    <div className="relative pl-12 lg:pl-0">
         <motion.div
             className="rounded-lg overflow-hidden p-4 text-justify"
             whileHover={{
@@ -12,10 +12,10 @@ const ContentItem = ({ title, description }) => (
                 translateZ: 50 
             }}
         >
-            <dt className="text-xl font-semibold leading-7 text-dark">
+            <dt className="text-xl font-semibold leading-7 text-dark sm:text-md">
                 {title}
             </dt>
-            <dd className="mt-2 text-base leading-7 text-dark">
+            <dd className="mt-2 text-base leading-7 text-dark sm:text-sm">
                 {description}
             </dd>
         </motion.div>

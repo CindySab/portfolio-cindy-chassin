@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import React from "react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import LinkedInIcon from "./LinkedInIcon";
@@ -28,9 +27,49 @@ const CustomLink = ({ href, title, className = "" }) => {
     );
 };
 
-const NavBar = () => {
+const CustomMobileLink = ({ href, title, className = "", toggle }) => {
+    const router = useRouter();
+    const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+        setIsActive(router.asPath === href);
+    }, [router.asPath, href]);
+
+    const handleClick = () => {
+        toggle();
+        router.push(href)
+    }
+
     return (
-        <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+        <button href={href} className={`${className} relative group my-2`} onClick={handleClick} >
+            {title}
+            <span
+                className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
+            ${isActive ? "w-full" : "w-0"}
+            `}
+            >
+                &nbsp;
+            </span>
+        </button>
+    );
+};
+
+const NavBar = () => {
+    
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(!isOpen)
+    }
+
+    return (
+        <header className="w-full px-32 py-8 font-medium flex items-center justify-between relative lg:pl-12 lg:pt-10 ">
+            <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
+                <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-10 rounded-sm ${isOpen ? 'rotate-45 translate-y-1.5' : '-translate-y-1'}`}></span>
+                <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-10 rounded-sm my-1 ${isOpen ? 'opacity-0' : 'opacity-1'}`}></span>
+                <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-10 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1.5' : 'translate-y-1'}`}></span>
+            </button>
+            <div className="w-full flex justify-between items-center lg:hidden">
             <nav>
                 <CustomLink href="/" title="Home" className="mr-4" />
                 <CustomLink href="/about" title="About" className="mx-4" />
@@ -47,7 +86,7 @@ const NavBar = () => {
                 
                 <motion.a
                     key="124"
-                    href="https://www.linkedin.com/feed/"
+                    href="https://github.com/CindySab?tab=repositories"
                     target={"_blank"}
                     whileHover={{ y: -8 }}
                     whileTap={{ scale: 0.8 }}
@@ -56,6 +95,41 @@ const NavBar = () => {
                     <GithubIcon />
                 </motion.a>
             </nav>
+            </div>
+            {
+                isOpen ?
+                <motion.div 
+                initial={{scale:0, opacity:0, x:"-50%", y:"-50%"}}
+                animate={{scale:1, opacity:1}}
+                className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primaryDark/40 rounded-lg backdrop-blur-md py-32">
+            <nav className="flex flex-col items-center justify-center mb-6">
+                <CustomMobileLink href="/" title="Home" className="" toggle={handleClick} />
+                <CustomMobileLink href="/about" title="About" className="" toggle={handleClick} />
+                <CustomMobileLink
+                    href="/projects"
+                    title="Projects"
+                    className=""
+                toggle={handleClick} />
+                <CustomMobileLink href="/skills" title="Skills" className="" />
+            </nav>
+            <nav className="flex items-center justify-center flex-wrap">
+                
+                    <LinkedInIcon />
+                
+                <motion.a
+                    key="124"
+                    href="https://github.com/CindySab?tab=repositories"
+                    target={"_blank"}
+                    whileHover={{ y: -8 }}
+                    whileTap={{ scale: 0.8 }}
+                    className="w-6 ml-3"
+                >
+                    <GithubIcon />
+                </motion.a>
+            </nav>
+            </motion.div>
+                : null
+            }
             <div className="absolute left-[50%] -top-6 translate-x-[-50%] ">
             </div>
         </header>

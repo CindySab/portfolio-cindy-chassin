@@ -6,7 +6,6 @@ import projectsData from "../../public/Data/projects.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import HireMe from "@/components/HireMe";
 
 const Projects = () => {
     const settings = {
@@ -19,7 +18,7 @@ const Projects = () => {
         appendDots: (dots) => (
             <div>
             {dots.map((dot, index) => (
-                <div key={index} className="mx-2">
+                <div key={index} className="mx-2 sm:mx-1 xs:mx-0.5">
                     {dot}
                 </div>
             ))}
@@ -30,7 +29,7 @@ const Projects = () => {
     ),
         nextArrow: (
             <div>
-                <div className="next-slick-arrow absolute -right-2 top-1/2 transform -translate-y-1/2 z-10">
+                <div className="next-slick-arrow absolute -right-2 top-1/2 transform -translate-y-1/2 z-10 md:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         stroke="black"
@@ -46,7 +45,7 @@ const Projects = () => {
 
         prevArrow: (
             <div>
-                <div className="prev-slick-arrow absolute -left-4 top-1/2 transform -translate-y-1/2 z-10 rotate-180">
+                <div className="prev-slick-arrow absolute -left-4 top-1/2 transform -translate-y-1/2 z-10 rotate-180 md:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         stroke="black"
@@ -71,16 +70,16 @@ const Projects = () => {
                 />
             </Head>
             <main className="w-full mb-16 flex flex-col items-center justify-center">
-                <Layout className="pt-16">
+                <Layout className="pt-10 md:pt-6">
                     <AnimatedText
                         text="Mes projets"
-                        className="!text-6xl !text-center mb-10"
+                        className="!text-6xl !text-center xs:!text-5xl mb-10 md:mb-2"
                     />
 
                     <Slider {...settings}>
                         {projectsData.map((project, index) => (
                             <div key={index} className="w-full">
-                                <div className="w-full flex items-center justify-between p-12 mb-0">
+                                <div className="w-full flex items-center justify-between p-12 mb-0 md:pr-0 md:pl-0">
                                     <ProjectItem
                                         title={project.title}
                                         summary={project.summary}
@@ -96,7 +95,6 @@ const Projects = () => {
                         ))}
                     </Slider>
                 </Layout>
-                <HireMe />
             </main>
         </>
     );

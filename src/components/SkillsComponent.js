@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import HireMe from './HireMe';
 
 const Skill = ({ imgSrc, x, y, alt }) => { // Déstructuration des propriétés
     return(
@@ -11,7 +10,7 @@ const Skill = ({ imgSrc, x, y, alt }) => { // Déstructuration des propriétés
             animate={{ x: x, y: y }} // Utilisation des valeurs x et y passées en tant que propriétés
             transition={{ duration: 0.3 }}
         >
-            <Image src={imgSrc} alt={alt} width={100} height={100} />
+            <Image src={imgSrc} alt={alt} width={100} height={100} priority={true} />
         </motion.div>
     )
 }
@@ -19,12 +18,12 @@ const Skill = ({ imgSrc, x, y, alt }) => { // Déstructuration des propriétés
 const SkillsComponent = () => {
     return (
         <>
-            <h2 className='font-bold text-6xl mt-20 w-full text-center'>Skills</h2>
+            <h2 className='font-bold text-6xl mt-10 w-full text-center'>Skills</h2>
             <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
                 <motion.div className='flex items-center justify-center '
                     whileHover={{ scale: 1.1 }}
                 >
-                    <Image width={150} height={150} src="/image/web.png" alt="web" />
+                    <Image width={150} height={150} src="/image/web.png" alt="web" priority={true} />
                 </motion.div>
                 <Skill imgSrc="/image/html.png" alt="HTML" x="-20vw" y="2vw" />
                 <Skill imgSrc="/image/css.png" alt="CSS" x="-5vw" y="-10vw" />
@@ -38,7 +37,6 @@ const SkillsComponent = () => {
                 <Skill imgSrc="/image/tail.png" alt="Tailwind CSS" x="18vw" y="18vw" />
                 <Skill imgSrc="/image/sass.png" alt="SASS" x="-35vw" y="6vw" />
             </div>
-            <HireMe />
         </>
     );
 };
