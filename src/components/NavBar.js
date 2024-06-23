@@ -110,7 +110,7 @@ const NavBar = () => {
                     title="Projects"
                     className=""
                 toggle={handleClick} />
-                <CustomMobileLink href="/skills" title="Skills" className="" />
+                <CustomMobileLink href="/skills" title="Skills" className="" toggle={handleClick}/>
             </nav>
             <nav className="flex items-center justify-center flex-wrap">
                 
