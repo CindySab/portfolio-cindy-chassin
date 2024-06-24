@@ -1,11 +1,11 @@
 {
     "content": [
         {
-            "title": "Mon histoire",
+            "title": "Mon Parcours Initial",
             "description": "Après avoir obtenu mon baccalauréat en sciences médico-sociales (SMS), j'ai tenté les concours pour devenir infirmière. Bien que j'aie réussi l'écrit, je n'ai pas passé l'oral. La créativité a toujours fait partie de mon âme. Autodidacte, j'ai appris à coudre et à gérer les aspects administratifs de ma propre entreprise de confection de vêtements pour enfants, y compris la comptabilité et la gestion de mon site internet. Cette expérience m'a poussé à approfondir mes compétences en entreprise en suivant un BTS d'assistante de manager en alternance au sein du service RH de la MAIF. Bien que cette expérience m'ait beaucoup apporté, le côté créatif me manquait."
         },
         {
-            "title": "Et après ?",
+            "title": "Mes Réalisations et Compétences",
             "description": "Pendant ma formation, j'ai réalisé plusieurs projets variés qui m'ont permis de développer une expertise solide en développement web. J'ai commencé par des projets simples pour me familiariser avec HTML et CSS, puis j'ai intégré des pages web, amélioré des interfaces mobiles avec CSS et Sass, et créé des carrousels avec JavaScript. J'ai aussi travaillé sur des pages dynamiques communicant avec des API. L'un de mes projets majeurs a été le développement de l'application Kasa avec React et React Router, où j'ai appris à structurer des applications complexes. En travaillant sur l'application bancaire Argent Bank avec React et Redux, j'ai manipulé des API REST et modélisé des API. Ces projets m'ont permis de maîtriser HTML, CSS, JavaScript, React, et d'autres outils, préparant ainsi mon avenir dans l'intégration web."
         },
         {

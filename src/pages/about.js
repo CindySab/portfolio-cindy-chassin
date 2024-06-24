@@ -25,6 +25,12 @@ const About = () => {
                                         key={index}
                                         title={item.title}
                                         description={item.description}
+                                        className={`
+                                            ${index === 0 ? 'lg:order-1' : ''}
+                                            ${index === 1 ? 'lg:order-3' : ''}
+                                            ${index === 2 ? 'lg:order-2' : ''}
+                                            ${index === 3 ? 'lg:order-4' : ''}
+                                        `}
                                     />
                                 ))}
                             </dl>

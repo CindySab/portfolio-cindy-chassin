@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ContentItem = ({ title, description }) => (
-    <div className="relative pl-12 lg:pl-0">
+const ContentItem = ({ title, description, className }) => (
+    <div className={`relative pl-12 lg:pl-0 ${className}`}>
         <motion.div
             className="rounded-lg overflow-hidden p-4 text-justify"
             whileHover={{

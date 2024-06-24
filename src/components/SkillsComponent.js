@@ -119,7 +119,7 @@ const SkillsComponent = () => {
                 <Skill imgSrc="/image/bash.png" alt="Web Design" x={`${positions.bash.x}vw`} y={`${positions.bash.y}vw`} />
                 <Skill imgSrc="/image/figma.png" alt="Figma" x={`${positions.figma.x}vw`} y={`${positions.figma.y}vw`} />
                 <Skill imgSrc="/image/vercel.png" alt="Vercel" x={`${positions.vercel.x}vw`} y={`${positions.vercel.y}vw`} />
-                <Skill imgSrc="/image/tail.png" alt="Tailwind CSS" x={`${positions.tail.x}vw`} y={`${positions.tail.y}vw`} />
+                <Skill imgSrc="/image/Tail.png" alt="Tailwind CSS" x={`${positions.tail.x}vw`} y={`${positions.tail.y}vw`} />
                 <Skill imgSrc="/image/sass.png" alt="SASS" x={`${positions.sass.x}vw`} y={`${positions.sass.y}vw`} />
             </div>
         </>
